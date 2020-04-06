@@ -18,3 +18,5 @@ for root, _, files in os.walk(foldername):
         elif f.endswith(' 4.jpg'):
             os.remove(fullpath)
 
+print("works?")
+
